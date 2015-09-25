@@ -19,6 +19,7 @@ plt.ylabel("valores da lista")
 plt.savefig("bubble-inicio.png")
 
 print ("Lista original: ", cartas)
+
 #i representa a posicao do primeiro elemento da lista e j o segundo. O for degigna juntamente com range o intervalo de atuacao do comando. 
 #0 representa a primeira posicao da lista, N-1 a ultima possivel para i, e 1 o intervalo de plotagem
 #foi realizada tambem a identacao das linhas, para que os comandos fossem rodados simultaneamente, acelerando o processo.
@@ -35,6 +36,18 @@ for i in range(0, N - 1, 1):
 #print plota o resultado do logica de programacao, e colocada fora da identacao para que seja rodada apenas uma vez, no final da operacao.
 print("Lista em Ordem Crescente: ", cartas)
 #
-print("cinco maiores: ", cartas[16:20:-1])
+print("cinco maiores: ", cartas[20:14:-1])
 
 print("cinco menores: ", cartas[0:5:1])
+
+plt.figure()
+
+plt.plot(range(N), cartas, 'ok')
+
+plt.title("grafico da lista ordenada")
+
+plt.xlabel("posicao na lista")
+
+plt.ylabel("valores da lista")
+
+plt.savefig("bubble-fim.png")
