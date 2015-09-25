@@ -19,3 +19,7 @@ for i in range(0, N - 1, 1):
 
 #print plota o resultado do logica de programacao, e colocada fora da identacao para que seja rodada apenas uma vez, no final da operacao.
 print("Lista em Ordem Crescente: ", cartas)
+#
+print("cinco maiores: ", cartas[16:20:-1])
+
+print("cinco menores: ", cartas[0:5:1])
