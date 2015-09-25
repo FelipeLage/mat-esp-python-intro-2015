@@ -3,7 +3,7 @@ cartas = [11, 18, 3, 1, 16, 12, 6, 19, 5, 0, 14, 4, 17, 9, 13, 7, 10, 15, 2, 8]
 
 #representa o numero de elementos dentro da lista 
 N = 20
-
+print ("Lista original: ", cartas)
 #i representa a posicao do primeiro elemento da lista e j o segundo. O for degigna juntamente com range o intervalo de atuacao do comando. 
 #0 representa a primeira posicao da lista, N-1 a ultima possivel para i, e 1 o intervalo de plotagem
 #foi realizada tambem a identacao das linhas, para que os comandos fossem rodados simultaneamente, acelerando o processo.
